@@ -28,3 +28,12 @@ console.log("Your amount in sales today (rounded to the nearest hundred): " + am
 console.log("Total amount you spent today (rounded to the nearest hundred: " + howMuchSpent);
 console.log("Your end of day total is: " + endOfDay);
 console.log("Your actual profit today is: " + actualProfit);
+
+/*
+endOfDay is equaled to the typed startAmount (100) plus the typed amountInSales (400) subtracted by the
+howMuchSpent (8) variable.  (100 + 400) - 8 = 492
+
+actualProfit is equaled to the amountInSales subtracted by the total of the startingAmount plus the amount in
+howMuchSpent.  400 - (100 + 8) = 292
+
+ */
