@@ -21,7 +21,6 @@ startingAmount = prompt("Enter today's starting amount which is $100.Simply ente
 amountInSales = prompt("Made a total of $400 in sales. Please enter 400. : ", "400");
 howMuchSpent = prompt("$8 was spent on lunch. Please enter in 8. : ", "8");
 
-
 //Outputs
 console.log("Your starting amount today is: " + startingAmount);
 console.log("Your amount in sales today (rounded to the nearest hundred): " + amountInSales);
