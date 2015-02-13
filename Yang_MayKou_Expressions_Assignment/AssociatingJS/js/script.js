@@ -19,7 +19,7 @@ actualProfit = amountInSales[0] - (startingAmount[0] + (howMuchSpent[0] + howMuc
 //Prompts
 startingAmount = prompt("Enter today's starting amount which is $100.Simply enter 100. : ", "100");
 amountInSales = prompt("Made a total of $400 in sales. Please enter 400. : ", "400");
-howMuchSpent = prompt("$8 was spent on lunch. Please enter in 8. : ");
+howMuchSpent = prompt("$8 was spent on lunch. Please enter in 8. : ", "8");
 
 
 //Outputs
@@ -28,4 +28,3 @@ console.log("Your amount in sales today (rounded to the nearest hundred): " + am
 console.log("Total amount you spent today (rounded to the nearest hundred: " + howMuchSpent);
 console.log("Your end of day total is: " + endOfDay);
 console.log("Your actual profit today is: " + actualProfit);
-
