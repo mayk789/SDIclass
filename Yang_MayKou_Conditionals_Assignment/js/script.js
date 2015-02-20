@@ -33,7 +33,8 @@ rainFlood = confirm("Did rain flood the land? Select \"OK\" for true & \"Cancel\
 if (rainFlood != true) {
     // If false
     console.log("No, the land has not been flooded by rain.");
-    var noFlood = usableLand
+    var noFlood = usableLand;
+     noFlood =prompt("Confirm that the land there are 0 acres of land that have not been flooded by rain.", "0");
     console.log("Then " + noFlood + " acres have not been flooded.")
 } else {
     // If true
