@@ -33,7 +33,8 @@ rainFlood = confirm("Did rain flood the land? Select \"OK\" for true & \"Cancel\
 if (rainFlood != true) {
     // If false
     console.log("No, the land has not been flooded by rain.");
-
+    var noFlood = usableLand
+    console.log("Then " + noFlood + " acres have not been flooded.")
 } else {
     // If true
     var landFlooded = prompt("How many acres have been flooded? Please use whole numbers.", "8");
@@ -43,4 +44,5 @@ if (rainFlood != true) {
     amountFarmable = parseInt(usableLand) - parseInt(landFlooded)
         console.log("The actual amount of land farmable is: " + amountFarmable + " acres(s).")
 }
+
 
