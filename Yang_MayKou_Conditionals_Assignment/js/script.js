@@ -14,11 +14,23 @@ var acreage = "10";
 var lake = "1";
 var usableLand;
     usableLand = acreage - lake;
-var rainFlood = "false";
+var rainFlood = "true";
 var farmable = "true";
 
 //Outputs
-console.log("The farm is located in " + farmLocation + ",MN.");
+console.log("The farm is located in " + farmLocation + ", MN.");
 console.log("It has a total of " + acreage + " acres.");
 console.log("There's a lake that takes up " + lake + " acres.");
-console.log("Usable amount of land should be " + usableLand + ".")
+console.log("Usable amount of land should be " + usableLand + ".");
+console.log("It is " + rainFlood + " that rain had flooded the land.");
+
+//Confirm
+rainFlood = confirm("Did rain flood the land? Select \"OK\" for true & \"Cancel\" for false." );
+
+//Conditional
+if (rainFlood == true) {
+    console.log("Yes,the land has been flooded by rain.");
+}else{
+    console.log("No, the land has not been flooded by rain.");
+
+}
